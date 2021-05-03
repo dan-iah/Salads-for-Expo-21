@@ -6,22 +6,22 @@ To run the chef and saladmaker programs:
 2. Change the directory to where program files chef and saladmaker are stored
 3. Type: 
 
-\>\> make
+\>\> make    
 
-Use 4 terminals to run chef and saladmakers programs
+Use 4 terminals to run chef and saladmakers programs    
 One terminal for each salad maker with a -n flag specifying which saldmaker is executing.
-(flags can appear in any order)
+(flags can appear in any order)    
 
-Terminal 1: 
+Terminal 1:    
 \>\> ./chef -n numOfSalads -m cheftime
 
-Terminal 2: 
->> ./saladmaker -m salmkrtime -n 1 -s shmid
+Terminal 2:     
+\>\> ./saladmaker -m salmkrtime -n 1 -s shmid
 
-Terminal 3: 
+Terminal 3:     
 \>\> ./saladmaker -m salmkrtime -n 2 -s shmid
 
-Terminal 4: 
+Terminal 4:     
 \>\> ./saladmaker -m salmkrtime -n 3 -s shmid
 
 --------------------------------------------------
