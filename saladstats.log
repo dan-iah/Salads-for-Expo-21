@@ -1,0 +1,62 @@
+Salad #4 - saladmaker 1
+Start time:21:5:56
+Received 81g of tomato
+Received 53g of green pepper
+Chopping vegetables...
+End time:21:6:1
+
+Salad #5 - saladmaker 1
+Start time:21:6:2
+Received 90g of tomato
+Received 58g of green pepper
+Chopping vegetables...
+End time:21:6:7
+
+FINAL STATS - Salad Maker 1
+Program start time: 21:5:37
+Program end time: 21:6:7
+Total salads made:  2
+Total time making salads (sec): 9.720000
+Total time waiting for ingredients (sec): 20.760000
+171g tomato used
+111g green pepper used
+
+Salad #1 - saladmaker 2
+Start time:21:5:37
+Received 83g of tomato
+Received 36g of green pepper
+Chopping vegetables...
+End time:21:5:42
+
+Salad #2 - saladmaker 2
+Start time:21:5:45
+Received 94g of tomato
+Received 30g of green pepper
+Chopping vegetables...
+End time:21:5:50
+
+Salad #3 - saladmaker 2
+Start time:21:5:50
+Received 88g of tomato
+Received 34g of green pepper
+Chopping vegetables...
+End time:21:5:55
+
+FINAL STATS - Salad Maker 2
+Program start time: 21:5:36
+Program end time: 21:6:7
+Total salads made:  3
+Total time making salads (sec): 14.690000
+Total time waiting for ingredients (sec): 4.150000
+265g tomato used
+100g onion used
+
+FINAL STATS - Salad Maker 3
+Program start time: 21:5:34
+Program end time: 21:6:7
+Total salads made:  0
+Total time making salads (sec): 0.000000
+Total time waiting for ingredients (sec): 32.960000
+0g green pepper used
+0g onion used
+
