@@ -13,16 +13,17 @@ One terminal for each salad maker with a -n flag specifying which saldmaker is e
 (flags can appear in any order)
 
 Terminal 1: 
->> ./chef -n numOfSalads -m cheftime
+\>\> ./chef -n numOfSalads -m cheftime
 
 Terminal 2: 
 >> ./saladmaker -m salmkrtime -n 1 -s shmid
 
 Terminal 3: 
->> ./saladmaker -m salmkrtime -n 2 -s shmid
+\>\> ./saladmaker -m salmkrtime -n 2 -s shmid
 
 Terminal 4: 
->> ./saladmaker -m salmkrtime -n 3 -s shmid
+\>\> ./saladmaker -m salmkrtime -n 3 -s shmid
+
 --------------------------------------------------
 
 The Chef Program 
@@ -31,9 +32,7 @@ The chef program creates the shared memory segment which the saladmaker program 
 
 The Saladmaker Program
 
-The saladmaker program is one cpp file that contains if/else statements specifying which saladmaker is going to execute for the specific pair of ingredients it receives. The saladmaker program accesses the shared memory segment to obtain the weights of vegies and to know which saladmaker they are given (i.e. which saladmaker is to be executed). Before salad making begins, sem_wait() is called for the saladmaker receiving the ingredients (sm1 or sm2 or sm3) to block all other processes from accessing shared memory segment as it will be accessing it. Finally, saladmaker program prints the total working and waiting time stats and total vegie weights and time of program from beginning of execution till end and unlinks/closes the semaphores and detaches from shared mem.
-
---------------------------------------------------
+The saladmaker program is one cpp file that contains if/else statements specifying which saladmaker is going to execute for the specific pair of ingredients it receives. The saladmaker program accesses the shared memory segment to obtain the weights of vegies and to know which saladmaker they are given (i.e. which saladmaker is to be executed). Before salad making begins, sem_wait() is called for the saladmaker receiving the ingredients (sm1 or sm2 or sm3) to block all other processes from accessing shared memory segment as it will be accessing it. Finally, saladmaker program prints the total working and waiting time stats and total vegie weights and time of program from beginning of execution till end and unlinks/closes the semaphores and detaches from shared memory.
 
 Temporal Log
 
