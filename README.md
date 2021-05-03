@@ -6,7 +6,7 @@ To run the chef and saladmaker programs:
 2. Change the directory to where program files chef and saladmaker are stored
 3. Type: 
 
->> make
+\>\> make
 
 Use 4 terminals to run chef and saladmakers programs
 One terminal for each salad maker with a -n flag specifying which saldmaker is executing.
